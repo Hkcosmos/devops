@@ -1,0 +1,3 @@
+$chmod600private-key-file
+$ssh-iprivate-key-file-Llocal-port:vm-ip-address:vm-portopc@vm-ip-address-N
+$ssh-ikeys/id_rsa-L9001:192.0.2.100:9001opc@192.0.2.100

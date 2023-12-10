@@ -1,0 +1,16 @@
+ssh root@45.56.94.4
+arch
+uname -r
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key
+sudo apt-key fingerprint OEBFCD88 | grep 5822
+sudoapt-getupdate
+sudo add-apt-repository “deb [arch=amd64] https://download.docker.com/linux/ubuntu$(lsb_release-cs)stable”
+sudoapt-getinstalldocker-cer 
+docker -v
+sudo docker run hello-world
+sudo systemctl start docker
+sudo docker run hello-world
+docker images
+sudo systemctl enable docker
+
+
